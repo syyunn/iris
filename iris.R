@@ -1,8 +1,8 @@
 rm(list = ls())
 
 # change path fit to your local
-setwd('/Users/syyun/iris/')
-iris <- read.csv('/Users/syyun/iris/iris.csv')
+setwd('/Users/dianazhu/iris/')
+iris <- read.csv('/Users/dianazhu/iris/iris.csv')
 
 # save lm() result as .png
 png('lm_result.png')
